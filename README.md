@@ -69,7 +69,7 @@ The following tools are used to automate the CI/CD process:
 
 ---
 
-## 🖥️ Local Setup
+## 🖥️ Setup
 
 > The following tools installed and configured locally:
 
@@ -82,7 +82,10 @@ The following tools are used to automate the CI/CD process:
      - Maven Integration
      - GitHub Integration
    - Credentials:
-    ![Credentials](photos/cred.png) 
+    ![Credentials](photos/cred.png)
+   - Tools configurations:
+         ![tools1](photos/tool1.png)
+    ![tools2](photos/tool2.png)
 
 2. **Docker**  
    - Install Docker: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
@@ -243,5 +246,5 @@ pipeline {
    ![sonarqube1](photos/sonarqube.png) 
   ![sonarqube2](photos/sonarqube2.png)
 - **Application :**
-    ![app1](photos/app1.png)
+    ![app1](photos/app.png)
     ![app2](photos/app2.png)
