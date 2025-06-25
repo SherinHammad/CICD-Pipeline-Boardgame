@@ -1,7 +1,7 @@
 ## Project Description
 
 This architecture shows a **CI/CD pipeline** that automates the process of building, testing, scanning, and deploying Board Game Database Full-Stack Web Application. This web application displays lists of board games and their reviews. While anyone can view the board game lists and reviews, they are required to log in to add/ edit the board games and their reviews. The 'users' have the authority to add board games to the list and add reviews, and the 'managers' have the authority to edit/ delete the reviews on top of the authorities of users. using tools like **Jenkins**, **Docker**,  **SonarQube**, **Trivy**, and **Kubernetes**.
-
+![CI/CD Pipeline](photos/Project.png)
 ## 🚀 CI/CD Pipeline Overview
 
 The following tools are used to automate the CI/CD process:
@@ -60,7 +60,6 @@ The following tools are used to automate the CI/CD process:
 
 - **Java 17**
 - **Maven**
-- **Spring Boot**
 - **Jenkins**
 - **Docker**
 - **Trivy**
@@ -72,7 +71,7 @@ The following tools are used to automate the CI/CD process:
 
 ## 🖥️ Local Setup
 
-> The following tools must be installed and configured locally:
+> The following tools installed and configured locally:
 
 1. **Jenkins**  
    - Install Jenkins: [https://www.jenkins.io/download/](https://www.jenkins.io/download/)
@@ -82,6 +81,8 @@ The following tools are used to automate the CI/CD process:
      - SonarQube Scanner
      - Maven Integration
      - GitHub Integration
+   - Credentials:
+    ![Credentials](photos/cred.png) 
 
 2. **Docker**  
    - Install Docker: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
@@ -231,3 +232,16 @@ pipeline {
         }
     }
 }
+```
+## Output
+- **Pipeline Build :**
+   ![Build Result](photos/output1.1.png) 
+   ![Build Result2](photos/output1.2.png) 
+   ![Build Result3](photos/output2.png)
+  ![Build Result4](photos/out.png)
+- **SonarQube :**
+   ![sonarqube1](photos/sonarqube.png) 
+  ![sonarqube2](photos/sonarqube2.png)
+- **Application :**
+    ![app1](photos/app1.png)
+    ![app2](photos/app2.png)
